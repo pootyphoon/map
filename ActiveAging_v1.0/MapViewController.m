@@ -403,9 +403,6 @@ calloutAccessoryControlTapped:(UIControl *)control
     return button;
 }
 
--(void)mapView:(MKMapView *)mapView didSelectAnnotationView:(MKAnnotationView *)view{
-    NSLog(@"%@", view.annotation.title);
-}
 
 //- (void) buttonTapped:(id)sender{
 //    
@@ -426,6 +423,7 @@ calloutAccessoryControlTapped:(UIControl *)control
 #pragma mark - BUTTONS
 - (IBAction)returnButtonPresssed:(id)sender {
     [self dismissViewControllerAnimated:true completion:nil];
+    //aa
 }
 
 - (IBAction)shouldShareLocationSwitch:(id)sender {
